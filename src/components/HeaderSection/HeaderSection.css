@@ -1,0 +1,22 @@
+.header__wrapper {
+    max-width: 1450px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.header-create__text {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 32px;
+
+    margin-top: 150px;
+    margin-bottom: 13px;
+}
+
+.header-create__text-under {
+    color: rgb(127, 127, 127);
+    font-weight: 400;
+    font-size: 18px;
+}
+

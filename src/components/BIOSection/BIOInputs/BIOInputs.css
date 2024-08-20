@@ -1,0 +1,66 @@
+.header__wrapper {
+    max-width: 1450px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+p {
+    color: #ffffff
+}
+
+input {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    background-color: #1c1c1c; 
+    border: 1px solid #333;
+    border-radius: 5px;
+    color: #fff; 
+    font-size: 16px;
+    outline: none; 
+    transition: border-color 0.3s ease; 
+}
+
+input:hover {
+    border-color: #666; 
+}
+
+.firstname-inputs {
+    font-weight: bold;
+}
+
+.next-page-btn {
+    background-color: #3b5998; /* Facebook blue color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+
+    margin-top: 15px;
+}
+
+.next-page-btn:hover {
+    background-color: #334d84
+}
+
+label {
+    color: #b3b3b3; /* Light grey text */
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.btn-zone__wrapper {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+
+}
+
+.confirm-password-input {
+    width: 10px;
+    margin: 0;
+    cursor: pointer;
+}

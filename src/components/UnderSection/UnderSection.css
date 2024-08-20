@@ -1,0 +1,35 @@
+.login-prompt {
+    
+    color: #ffffff; 
+    padding: 10px; 
+    position: relative; 
+
+    max-width: 1450px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.top-line {
+    background-color: #3D3D3D; 
+    border-radius: 5px;
+    height: 3px; 
+    width: 100%; 
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.login-prompt a {
+    color: #4A90E2; /* цвет ссылки (синий) */
+    text-decoration: none; /* убираем подчеркивание */
+    font-weight: bold; /* жирный текст */
+}
+
+.login-prompt a:hover {
+    text-decoration: underline; /* подчеркивание при наведении */
+}
+
+.login-prompt a::after {
+    content: ' \2192'; /* добавляем стрелку после ссылки */
+}
